@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+main {
+    /* margin-top: 40px; */
+    width: 100vw;
+    background-color: #b0d8da;
+    /* width: 1280px; */
+    height: 100vh;
+    padding: 40px;
+    padding-left: 60px;
+}
+
+.white-bg {
+    padding: 40px;
+    padding-right: 60px;
+    height: 100vh;
+    width: 60vw;
+    background-color: #fff;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.logo img {
+    width: 35px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.abstract-img {
+    display: inline-block;
+    position: absolute;
+    left: 10vw;
+    bottom: 1vw;
+    z-index: 999;
+}
+
+.lang-choice {
+    display: flex;
+    position: absolute;
+    right: 60px;
+}
+
+.lang-choice select {
+    border: none;
+    appearance: none;
+    margin-right: 5px;
+    font-size: 1rem;
+    color: #B3B3B3;
+    
+}
+
+/* .lang-choice select::after {
+    content: url('public/images/down arrow.svg');
+    display: block;
+    width: 18px;
+    height: 11px;
+} */
+
