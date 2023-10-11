@@ -82,3 +82,13 @@ main {
     height: 11px;
 } */
 
+.sign-up-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.sign-up-Gn {
+    display: flex;
+    grid-area: 2 / 1 / 3 / 3;
+}
