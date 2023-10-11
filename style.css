@@ -68,20 +68,15 @@ main {
 
 .lang-choice select {
     border: none;
-    appearance: none;
     margin-right: 5px;
     font-size: 1.3rem;
     font-family: 'Tajawal', sans-serif;
     color: #B3B3B3;
-
 }
 
-/* .lang-choice select::after {
-    content: url('public/images/down arrow.svg');
-    display: block;
-    width: 18px;
-    height: 11px;
-} */
+.lang-choice select:focus {
+    outline: 2px solid #DDDDDD;
+}
 
 .sign-up-form {
     width: 40vw;
