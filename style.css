@@ -180,7 +180,22 @@ h1 {
     border: none;
     border-bottom: 1px solid #DDDDDD;
     color: #969696;
-    font-family: 'Tajawal', sans-serif;font-size: 1.1rem;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.1rem;
+}
+
+.form input:focus,
+.form label:focus-within {
+    outline: none; /* Remove the default focus outline */
+    border: none; /* Remove the border on focus */
+}
+
+.form input:focus {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.form label {
+    border: none;
 }
 
 .submit {
@@ -207,9 +222,10 @@ align-items: end;
     align-items: end;
 }
 
-.log-in span {
+.log-in a {
     color: #68C7CC;
     font-family: 'Tajawal', sans-serif;
     font-size: 1rem;
     margin-left: 5px;
+    text-decoration: none;
 }

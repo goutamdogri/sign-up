@@ -53,24 +53,25 @@
                 </div>
                 <p class="or">- OR -</p>
 
-                <form action="#" method="post" class="form">
+                <form action="https://formspree.io/f/xbjvqdog"
+                method="POST" class="form">
                     <label for="FullName" class="full-Name">
-                        <input type="text" name="FullName" placeholder="Full Name" id="">
+                        <input type="text" name="FullName" placeholder="Full Name" id="" autocomplete="off" required>
                     </label>
 
                     <label for="e-mail" class="e-mail">
-                        <input type="email" name="e-mail" placeholder="e-mail" id="">
+                        <input type="email" name="email" placeholder="e-mail" id="" autocomplete="off" required>
                     </label>
 
                     <label for="Password" class="password">
-                        <input type="password" name="password" placeholder="Password" id="">
+                        <input type="password" name="password" placeholder="Password" id="" autocomplete="off" required>
                     </label>
 
                     <label for="submit" class="submit">
                         <input type="submit"  value="Create Account">
                     </label>
 
-                    <p class="log-in">Already have an account? <span>Log in</span></p>
+                    <p class="log-in">Already have an account? <a href="login.html">Log in</a></p>
                 </form>
             </section>
         </div>
